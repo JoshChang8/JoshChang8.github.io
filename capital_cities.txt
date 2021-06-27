@@ -1,0 +1,15 @@
+ottawa
+tokyo
+washington
+beijing
+paris
+london
+moscow
+berlin
+rome
+amsterdam
+cairo
+dublin
+jakarta
+manila
+stockholm
