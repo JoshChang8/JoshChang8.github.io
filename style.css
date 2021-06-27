@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.tabs {
+    display: flex;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    font-size: 1vw;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 40px;
+}
+
+.tab:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.left, .right {
+    float: left;
+    background-color: #585B5B;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 50%;
+    height: 50vw;
+    background: url(homepage_background.jpg)
+
+
+}
+
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .left, .right {
+        width: 100%;
+    }
+}
+
+.video {
+    background-color: #ABDEDE;
+    ;
+    padding:100px;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+}
+
+.testimonials {
+    width: auto;
+    background: url(homepage_background.jpg);
+    padding-bottom: 100px;
+}
+
+.testimonials h1{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 60px;
+    padding-bottom: 15px;
+    font-family: 'Trebuchet MS', sans-serif;   
+    color: #006963;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.card {
+    background:#C4C4C4;
+    padding: 50px 50px 100px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    color: black;
+    margin-right: 50px;
+}
+
+.image {
+    position: absolute;
+    top: 1660px;
+    margin-left: 50px;
+}
+
+.image img {
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid #585B5B;
+}
+
+.box h3 {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.card:hover {
+    border: 2px solid white;
+}
+
+.card:hover .image img{
+    border:2px solid white;
+}
+
+a {
+    display: block;
+    background:black;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    width:120px;
+    text-align: center;
+    border-radius:5px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: 117px;
+}
+
+a:hover {
+    background:white;
+    color:black;
+}
+#abt {
+    position: absolute;
+width: 477px;
+height: 87px;
+left: 482px;
+top: 208px;
+
+font-family: 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 78px;
+line-height: 78px;
+text-align: center;
+
+color: #006963;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#WhyHangman {
+    position: absolute;
+width: 293px; 
+height: 57px;
+left: 56px;
+top: 386px;
+
+font-family: 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 57px;
+text-align: center;
+
+color: #006963;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#TheTeam {
+    position: absolute;
+width: 230px;
+height: 57px;
+left: 100px;
+top: 700px;
+
+font-family: 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 57px;
+text-align: center;
+
+color: #006963;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#WHDescript {
+    position: absolute;
+width: 905px;
+height: 335px;
+left: 450px;
+top: 374px;
+
+font-family: 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 43px;
+text-align: center;
+
+color: black;
+
+}
+
+#rbox {
+    position: absolute;
+width: 540px;
+height: 778px;
+left: 77px;
+top: 824px;
+
+background: #C4C4C4;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#rrbox {
+    position: absolute;
+width: 496px;
+height: 343px;
+left: 98px;
+top: 1237px;
+
+background: #FFFFFF;
+border-radius: 28px;
+}
+
+#rname {
+    position: absolute;
+width: 85px;
+height: 43px;
+left: 238px;
+top: 1263px;
+font-family: 'Trebuchet MS', sans-serif;
+font-size: 40px;
+
+}
+
+#roselyn {
+    position: absolute;
+width: 330px;
+height: 330px;
+left: 182px;
+top: 861px;
+}
+
+#rdes {
+    position: absolute;
+width: 453px;
+height: 202px;
+left: 120px;
+top: 1352px;
+
+font-family: 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+
+}
+
+#ybox {
+    
+position: absolute;
+width: 540px;
+height: 778px;
+left: 813px;
+top: 824px;
+
+background: #C4C4C4;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#yrbox {
+    position: absolute;
+width: 496px;
+height: 343px;
+left: 835px;
+top: 1237px;
+
+background: #FFFFFF;
+border-radius: 28px;
+}
+
+#yname {
+    position: absolute;
+width: 167px;
+height: 43px;
+left: 999px;
+top: 1263px;
+
+font-family: 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 43px;
+
+
+text-align: center;
+
+color: #000000;
+}
+
+#yuvraj {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 918px;
+    top: 861px;
+
+}
+
+#ydes {
+    position: absolute;
+width: 453px;
+height: 202px;
+left: 856px;
+top: 1352px;
+
+font-family: 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+
+}
+
+#kbox {
+    position: absolute;
+width: 540px;
+height: 778px;
+left: 77px;
+top: 1680px;
+
+background: #C4C4C4;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#krbox {
+    position: absolute;
+width: 496px;
+height: 343px;
+left: 98px;
+top: 2095px;
+
+background: #FFFFFF;
+border-radius: 28px;
+}
+
+#kname {
+    position: absolute;
+width: 261px;
+height: 43px;
+left: 215px;
+top: 2125px;
+
+font-family: 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 43px;
+
+
+text-align: center;
+
+color: #000000;
+
+}
+
+#kavya {
+    
+position: absolute;
+width: 330px;
+height: 330px;
+left: 182px;
+top: 1722px;
+}
+
+#kdes{
+    position: absolute;
+width: 453px;
+height: 202px;
+left: 119px;
+top: 2235px;
+
+font-family: 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+
+}
+
+#jbox {
+    position: absolute;
+width: 540px;
+height: 778px;
+left: 813px;
+top: 1680px;
+
+background: #C4C4C4;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#jrbox {
+    position: absolute;
+width: 496px;
+height: 343px;
+left: 835px;
+top: 2095px;
+
+background: #FFFFFF;
+border-radius: 28px;
+}
+
+#jname {
+    position: absolute;
+width: 187px;
+height: 43px;
+left: 987px;
+top: 2111px;
+
+font-family: 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 43px;
+
+text-align: center;
+
+color: #000000;
+
+}
+
+#josh {
+    position: absolute;
+width: 330px;
+height: 330px;
+left: 918px;
+top: 1722px;
+}
+
+#jdes{
+    position: absolute;
+width: 453px;
+height: 202px;
+left: 856px;
+top: 2221px;
+
+font-family: 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+
+}
