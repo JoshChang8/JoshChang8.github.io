@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("https://raw.githubusercontent.com/yuvrajvirdi/Hangman-Game/main/homepage_background.jpg");
+}
+
+.tabs {
+    display: flex;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    font-size: 1vw;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 40px;
+}
+
+.tab:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.left, .right {
+    float: left;
+    background-color: #585B5B;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 50%;
+    height: 50vw;
+    background: url(homepage_background.jpg)
+
+
+}
+
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .left, .right {
+        width: 100%;
+    }
+}
+
+.video {
+    background-color: #ABDEDE;
+    ;
+    padding:100px;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+}
+
+.testimonials {
+    width: auto;
+    background: url(homepage_background.jpg);
+    padding-bottom: 100px;
+}
+
+.testimonials h1{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 60px;
+    padding-bottom: 15px;
+    font-family: 'Trebuchet MS', sans-serif;   
+    color: #006963;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.card {
+    background:#C4C4C4;
+    padding: 50px 50px 100px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    color: black;
+    margin-right: 50px;
+}
+
+.image {
+    position: absolute;
+    top: 1660px;
+    margin-left: 50px;
+}
+
+.image img {
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid #585B5B;
+}
+
+.box h3 {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.card:hover {
+    border: 2px solid white;
+}
+
+.card:hover .image img{
+    border:2px solid white;
+}
+
+a {
+    display: block;
+    background:black;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    width:120px;
+    text-align: center;
+    border-radius:5px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: 117px;
+}
+
+a:hover {
+    background:rgb(219, 208, 208);
+    color:black;
+}
+
+.about {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.left_about, .right_about {
+    float: left;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 50%;
+    line-height: 1.6;
+    padding-bottom: 200px;
+    background: #ABDEDE;
+    padding-right: 100px;
+    
+
+}
+
+.team {
+    width: auto;
+    background-color:#ABDEDE;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.team h1{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 60px;
+    padding-bottom: 15px;
+    font-family: 'Trebuchet MS', sans-serif;   
+    color: #006963;
+}
+
+.team_image {
+    position: absolute;
+    top: 730px;
+    margin-left: 90px;
+}
+
+.team_image img {
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid #585B5B;
+}
+
+.team_box {
+    background: white;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    color: black;
+    width:300px;
+    border-radius: 5px;;
+}
+
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.team_card {
+    background:#C4C4C4;
+    padding: 50px 100px 200px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    color: black;
+    margin-right: 50px;
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.team_card:hover {
+    border: 2px solid white;
+}
+
+.team_card:hover .image img{
+    border:2px solid white;
+}
+
+.sectionb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.teamb {
+    width: auto;
+    background-color:#ABDEDE;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.teamb_card {
+    background:#C4C4C4;
+    padding: 50px 100px 200px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    color: black;
+    margin-right: 50px;
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.teamb_card:hover {
+    border: 2px solid white;
+}
+
+.teamb_card:hover .image img{
+    border:2px solid white;
+}
+
+.teamb_image {
+    position: absolute;
+    top: 1130px;
+    margin-left: 90px;
+}
+
+.teamb_image img {
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid #585B5B;
+}
+
+.teamb_box {
+    background: white;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    color: black;
+    width:300px;
+    border-radius: 5px;;
+    margin-top: 0px;
+}
+
+
+
+
+
+.pagetitle {
+    color: #006963;
+    font-size: 7vw;
+    text-shadow:2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.row1 {margin: 0 -5px;}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column1 {
+    float: left;
+    width: 25%;
+    padding: 0 10px 0px 100px;
+}
+
+.card1 {
+    box-shadow: 0px 7px 14px 0px rgba(0, 0, 0, 0.3);
+    padding: 70px;
+    text-align: center;
+    background-color: #C4C4C4;
+    margin: 5px 0 50px 0;
+}
+
+.card2 {
+    box-shadow: 0px 7px 14px 0px rgba(0, 0, 0, 0.3);
+    padding: 70px;
+    text-align: center;
+    background-color: #ABDEDE;
+    margin: 5px 0 50px 0;
+}
+
+.icon2 {
+    border-radius: 50%;
+    vertical-align: center;
+    height: 10vw;
+    width: 10vw;
+}
+
+.info {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.rank {
+    font-size: 50px;
+    margin: 50px 0px 0px;
+    font-weight: bold;
+}
