@@ -1,4 +1,4 @@
 # Personal Website
 Joshua Chang Personal Website
-View the live website here: https://joshchang.me
+View the live website here: https://joshuachang.me
 
